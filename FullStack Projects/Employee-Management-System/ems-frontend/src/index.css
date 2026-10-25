@@ -1,0 +1,31 @@
+:root {
+  font-family: Inter, "Segoe UI", Roboto, system-ui, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  color: #202a3b;
+  background: #f5f7fb;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background:
+    radial-gradient(ellipse at 80% 0%, rgb(221 232 255 / 45%), transparent 35rem),
+    #f5f7fb;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline: 3px solid rgb(79 111 237 / 35%);
+  outline-offset: 2px;
+}
